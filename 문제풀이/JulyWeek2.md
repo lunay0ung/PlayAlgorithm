@@ -34,7 +34,7 @@
    - Kotlin
     ```sh
    class Solution {
-    fun twoSum(nums: IntArray, target: Int): IntArray {
+     fun twoSum(nums: IntArray, target: Int): IntArray {
       
         val indeces = IntArray(2);
 
@@ -51,6 +51,6 @@
         }//for
 
         return indeces;
-    }
-}
+     }
+   }
     ```
