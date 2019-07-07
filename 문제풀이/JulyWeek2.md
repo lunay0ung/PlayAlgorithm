@@ -30,3 +30,27 @@
        }
     }
     ```
+
+   - Kotlin
+    ```sh
+   class Solution {
+    fun twoSum(nums: IntArray, target: Int): IntArray {
+      
+        val indeces = IntArray(2);
+
+        for(startNum in nums) {
+            val nextNum = startNum+1;
+            for(nextNum in nums) {
+
+                if(startNum + nextNum == target) {
+                    indeces[0] = startNum;
+                    indeces[1] = nextNum;
+                    break
+                }
+            }//for
+        }//for
+
+        return indeces;
+    }
+}
+    ```
