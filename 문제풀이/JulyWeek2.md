@@ -30,6 +30,9 @@
        }
     }
     ```
+   - Result
+     - Runtime: 25 ms, faster than 25.52% of Java online submissions for Two Sum.
+     - Memory Usage: 37.4 MB, less than 99.54% of Java online submissions for Two Sum.
 
    - Kotlin
     ```sh
@@ -54,9 +57,13 @@
         }
     }
     ```
+    - Result
+      - Runtime: 348 ms, faster than 11.67% of Kotlin online submissions for Two Sum.
+      - Memory Usage: 35.2 MB, less than 100.00% of Kotlin online submissions for Two Sum.
+   
     
     - 참고
-      - ![Returns and Jumps](https://kotlinlang.org/docs/reference/returns.html#returns-and-jumps)
+      - [Returns and Jumps](https://kotlinlang.org/docs/reference/returns.html#returns-and-jumps)
         - Any expression in Kotlin may be marked with a label. Labels have the form of an identifier followed by the @ sign, for example: abc@, fooBar@ are valid labels (see the grammar). To label an expression, we just put a label in front of it
         -  A break qualified with a label jumps to the execution point right after the loop marked with that label. A continue         proceeds to the next iteration of that loop.
       
