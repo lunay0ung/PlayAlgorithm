@@ -41,5 +41,5 @@ class Solution {
 Runtime: 110 ms, faster than 5.02% of Java online submissions for Single Number.
 Memory Usage: 39 MB, less than 98.26% of Java online submissions for Single Number.
 
-*원래 처음에 하려다 끝내 실패한 방법 ㅠㅠ
+*원래 처음에 하려다 끝내 실패한 방법: 
 https://leetcode.com/problems/single-number/discuss/43039/Java-use-HashMap
