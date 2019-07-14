@@ -43,6 +43,21 @@
    - Memory Usage: 37.8 MB, less than 73.94% of Java online submissions for Reverse Words in a String.
 
    
+ - 다른 사람의 풀이 중 참고할 만한 것 
+ ```sh   
+ public String reverseWords(String s) {
+    Scanner parts = new Scanner(s);
+    
+    String result = "";
+    
+    while(parts.hasNext()){
+        result = parts.next() + " " + result;
+    }
+    
+    return result.trim();
+ }
+ ```
+   
  - 참고
    - [공홈: java.lang](https://docs.oracle.com/javase/8/docs/api/)
      - [String](https://docs.oracle.com/javase/8/docs/api/java/lang/String.html)
