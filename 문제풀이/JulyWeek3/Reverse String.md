@@ -4,13 +4,12 @@
    You may assume all the characters consist of printable ascii characters.
 
     - Example 1:
-    Input: ["h","e","l","l","o"]
-    Output: ["o","l","l","e","h"]
-    Example 2:
+     - Input: ["h","e","l","l","o"]
+     - Output: ["o","l","l","e","h"]
 
     - Example 2:
-    Input: ["H","a","n","n","a","h"]
-    Output: ["h","a","n","n","a","H"]
+     - Input: ["H","a","n","n","a","h"]
+     - Output: ["h","a","n","n","a","H"]
     
  - 풀이
  ```sh    
