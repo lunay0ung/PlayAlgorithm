@@ -24,8 +24,8 @@
  ```sh    
   class Solution {
       public String reverseWords(String s) {
-         s = s.trim();
-         String[] resultArray =  s.split("\\s+");
+         s = s.trim(); //문자열 앞뒤의 space 제거 
+         String[] resultArray =  s.split("\\s+"); //detect multiple spaces
          StringBuilder sb = new StringBuilder();
 
          for(int j=resultArray.length-1; j >= 0; j--) {
