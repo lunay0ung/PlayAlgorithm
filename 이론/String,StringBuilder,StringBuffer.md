@@ -91,3 +91,5 @@ when the application attempts to add more data into the heap space area, but the
         - 우선순위 큐는 배열, 연결리스트, 힙 으로 구현이 가능하다. 이 중에서 힙(heap)으로 구현하는 것이 가장 효율적이다.
         
         
+   - 기타 자료
+     - [Youtube: Java Tutorial # 24 | Thread Safety and code synchronization in java | Multithreading in Java part 3](https://youtu.be/IYBrtzOvfqo)      
