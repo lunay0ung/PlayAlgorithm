@@ -18,3 +18,6 @@
    - Runtime:
    - Memory Usage:
 
+
+ - 풀지 못함 
+   - 참고: [Max Contiguous Subarray Sum - Cubic Time To Kadane's Algorithm ("Maximum Subarray" on LeetCode)](https://youtu.be/2MmGzdiKR9Y)
