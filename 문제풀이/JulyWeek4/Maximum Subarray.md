@@ -21,3 +21,5 @@
 
  - 풀지 못함 
    - 참고: [Max Contiguous Subarray Sum - Cubic Time To Kadane's Algorithm ("Maximum Subarray" on LeetCode)](https://youtu.be/2MmGzdiKR9Y)
+      - 풀이: [bephrem's github](https://github.com/bephrem1/backtobackswe/blob/master/Dynamic%20Programming%2C%20Recursion%2C%20%26%20Backtracking/maxContiguousSubarraySum.java)
+   - [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
