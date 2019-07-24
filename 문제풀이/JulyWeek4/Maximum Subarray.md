@@ -23,6 +23,7 @@
    - 참고: [Max Contiguous Subarray Sum - Cubic Time To Kadane's Algorithm ("Maximum Subarray" on LeetCode)](https://youtu.be/2MmGzdiKR9Y)
       - 풀이: [bephrem's github](https://github.com/bephrem1/backtobackswe/blob/master/Dynamic%20Programming%2C%20Recursion%2C%20%26%20Backtracking/maxContiguousSubarraySum.java)
    - [Dynamic programming](https://en.wikipedia.org/wiki/Dynamic_programming)
+   - [Difference between Divide and Conquer Algo and Dynamic Programming](https://stackoverflow.com/questions/13538459/difference-between-divide-and-conquer-algo-and-dynamic-programming)
    - [Explanation on Integer.MAX_VALUE and Integer.MIN_VALUE to find min and max value in an array](https://stackoverflow.com/questions/30685641/explanation-on-integer-max-value-and-integer-min-value-to-find-min-and-max-value)
       ```sh
       ...if the first item in the array is larger than the rest, 
