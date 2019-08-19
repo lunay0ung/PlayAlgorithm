@@ -15,13 +15,15 @@
         - 편향되지 않은(예를 들어, 코미디 영화에 대한 평점만 있다거나 액션 영화에 대한 평점만 있는 경우) 특징 
         - **단, 좋은 특징을 고르는 데 있어 정답은 없다. 여러 가지 다른 관점에서 모두 살펴 보아야 한다.**
     - 많은 변수가 관련되어 있는 경우에는 사실상 예측이 불가능하다.      
-    
 
- - 관련 자료
+
+
+ - 참고 자료
     - [KNN Classification using Scikit-learn](https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn)
         - KNN used in the variety of applications such as **finance, healthcare, political science, handwriting detection, image recognition and video recognition**. In Credit ratings, financial institutes will predict the credit rating of customers. In loan disbursement, banking institutes will predict whether the loan is safe or risky. In political science, classifying potential voters in two classes will vote or won’t vote. KNN algorithm used for both classification and regression problems. **KNN algorithm based on feature similarity approach**. 
         - KNN is a **non-parametric and lazy learning algorithm. Non-parametric means** there is no assumption for underlying data distribution. In other words, **the model structure determined from the dataset**. This will be **very helpful in practice** where most of the real world datasets do not follow mathematical theoretical assumptions. 
-        
+     
+     
 
  - 머신 러닝
     - OCR / optical character recognition
