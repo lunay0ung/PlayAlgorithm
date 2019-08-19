@@ -17,8 +17,16 @@
     - 많은 변수가 관련되어 있는 경우에는 사실상 예측이 불가능하다.      
 
 
+ - 참고
+    - 코사인 유사도 / cosine similarity
+        - 코사인 유사도(― 類似度, 영어: cosine similarity)는 내적공간의 **두 벡터간 각도의 코사인값을 이용하여 측정된 벡터간의 유사한 정도를 의미**한다. 각도가 0°일 때의 코사인값은 1이며, 다른 모든 각도의 코사인값은 1보다 작다. 따라서 이 값은 **벡터의 크기가 아닌 방향의 유사도를 판단하는 목적으로 사용되며, 두 벡터의 방향이 완전히 같을 경우 1, 90°의 각을 이룰 경우 0, 180°로 완전히 반대 방향인 경우 -1의 값을 갖는다**. 이 때 벡터의 크기는 값에 아무런 영향을 미치지 않는다. 코사인 유사도는 특히 결과값이 [0,1]의 범위로 떨어지는 양수 공간에서 사용된다.
+        코사인 유사도는 어떤 개수의 차원에도 적용이 가능하여 흔히 다차원의 양수 공간에서의 유사도 측정에 자주 이용된다. 예를 들어 정보 검색 및 텍스트 마이닝 분야에서, 단어 하나 하나는 각각의 차원을 구성하고 문서는 각 단어가 문서에 나타나는 회수로 표현되는 벡터값을 가진다. 이러한 다차원 공간에서 코사인 유사도는 두 문서의 유사를 측정하는 매우 유용한 방법이다. ([위키피디아](https://ko.wikipedia.org/wiki/코사인_유사도))
+        - 넷플릭스의 영화 추천서비스의 사례에서, 두 사용자의 취향이 아주 비슷하지만 한 명은 평점을 주는 데 아주 인색하다고 가정해 보자. 두 고객 모두 A감독의 B라는 영화를 좋아하는데 폴은 별 5개, 로완은 별 4개를 주었다. 만약 거리 공식을 사용하면 이 두 사용자는 비슷한 취향에도 불구하고 이웃이 되지 않을 수 있다. 
+        - **코사인 유사도는 두 벡터의 거리를 측정하는 것이 아니라 두 벡터 사이의 각도를 측정하는 것**인데, 위 사례에서는 코사인 유사도가 더 적합한 방법이다.
+        - ![](https://datascience-enthusiast.com/figures/cosine_sim.png) ([Operations on word vectors](https://datascience-enthusiast.com/DL/Operations_on_word_vectors.html))
+        - ![](https://www.researchgate.net/publication/320914786/figure/fig2/AS:558221849841664@1510101868614/The-difference-between-Euclidean-distance-and-cosine-similarity.png) ([The difference between Euclidean distance and cosine similarity. ](https://www.researchgate.net/figure/The-difference-between-Euclidean-distance-and-cosine-similarity_fig2_320914786))
 
- - 참고 자료
+ - 관련 자료
     - [KNN Classification using Scikit-learn](https://www.datacamp.com/community/tutorials/k-nearest-neighbor-classification-scikit-learn)
         - KNN used in the variety of applications such as **finance, healthcare, political science, handwriting detection, image recognition and video recognition**. In Credit ratings, financial institutes will predict the credit rating of customers. In loan disbursement, banking institutes will predict whether the loan is safe or risky. In political science, classifying potential voters in two classes will vote or won’t vote. KNN algorithm used for both classification and regression problems. **KNN algorithm based on feature similarity approach**. 
         - KNN is a **non-parametric and lazy learning algorithm. Non-parametric means** there is no assumption for underlying data distribution. In other words, **the model structure determined from the dataset**. This will be **very helpful in practice** where most of the real world datasets do not follow mathematical theoretical assumptions. 
