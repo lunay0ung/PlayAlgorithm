@@ -28,3 +28,7 @@
  - Result
    - Runtime: 
    - Memory Usage: 
+
+   - 솔루션과 비슷한 방식으로 생각했지만 구현하지 못함. 
+      - [Map<K,V>](https://docs.oracle.com/javase/8/docs/api/java/util/Map.html)
+ 
