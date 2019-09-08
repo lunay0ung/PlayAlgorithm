@@ -7,4 +7,4 @@
   - 알고리즘 스터디에서 풀거나 다룬 문제들을 모. 문제는 LeetCode 혹은 백준에서 참고하였습니다.
 
 - 기타 
-  - Java를 이용한 문제풀이 중 모르는 내용, 헷갈리는 개념들은 [여기](https://github.com/luna-young/LearnAlgorithm/blob/master/Java)에 정리해두었습니다. 다른 언어를 사용하게 된다면 해당 폴더를 따로 만들어 개념을 정리해 나갈 예정입니다. 
+  - Java를 이용한 문제풀이 중 모르는 내용, 헷갈리는 개념들은 [여기](https://github.com/luna-young/LearnAlgorithm/blob/master/Java)에 정리해두었습니다. 다른 언어를 사용하게 된다면 해당 폴더를 따로 만들어 부족한 부분을 채워 나갈 예정입니다. 
