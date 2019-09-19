@@ -10,3 +10,14 @@
       - 입력의 첫 줄에는 테스트 케이스의 개수 T가 주어진다. 그 다음 줄부터 각각의 테스트케이스에 대해 강의 서쪽과 동쪽에 있는 사이트의 개수 정수 N, M (0 < N ≤ M < 30)이 주어진다.
     - 출력
       - 각 테스트 케이스에 대해 주어진 조건하에 다리를 지을 수 있는 경우의 수를 출력한다.
+
+
+- 결과
+
+
+- 참고
+  - [mygumi/ 백준 1834번; BigInteger](https://mygumi.tistory.com/29)
+    - ![](https://t1.daumcdn.net/cfile/tistory/2678F23D578DD54315)
+  - [mygumi/ 백준 1010번](https://mygumi.tistory.com/37)
+  - [my virtual room/ 백준 1010번; 원리 자세하게 설명](https://blog.naver.com/hwasub1115/221191566949)
+  - [oiehso0/ 백준 1010; 내가 생각한 것 그대로..](https://oiehso0.tistory.com/entry/1010DP-백준-다리놓기)
