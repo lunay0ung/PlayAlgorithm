@@ -15,3 +15,4 @@
 - 결론 / 힌트 / 교훈
   - 생각지도 못한 자료구조를 이용하는 것이었음. -> 백날 혼자만 골머리 싸봐야 소용x
   - https://leetcode.com/problems/last-stone-weight/discuss/294993/JavaPython-3-easy-code-using-PriorityQueueheapq-w-brief-explanation-and-analysis.
+  - 잘못생각한 부분 -> 어차피 return 값은 숫자 1개인데 재귀를 쓰려고 한 것 
