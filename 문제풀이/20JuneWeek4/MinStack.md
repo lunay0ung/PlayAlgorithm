@@ -1,1 +1,3 @@
 - [문제](https://leetcode.com/problems/min-stack/)
+- 결과
+  - 문제 자체를 단어별로 쪼개서 뭘 구해내야 하는 건지 이해를 확실해 하도록! 
