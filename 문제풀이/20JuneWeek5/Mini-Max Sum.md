@@ -1,5 +1,5 @@
 
-- [문제] (https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=next-challenge&h_v=zen)
+- [문제](https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=next-challenge&h_v=zen)
   - Hints: Beware of integer overflow! Use 64-bit Integer.
 
 
