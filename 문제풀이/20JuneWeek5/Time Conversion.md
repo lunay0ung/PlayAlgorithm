@@ -2,7 +2,7 @@
 
 - 결과 
   - 처음엔 AM을 고려하지 못했고,
-  - 그 다음엔 테스트 케이스 10개 중에 1개가 틀렸는데 뭔지 모르겠음...
+  - 그 다음엔 테스트 케이스 10개 중에 1개가 틀렸는데 뭔지 모르겠음... --> pm12시일 때 24로 바꿔버림...... 
 ```sh
   static String timeConversion(String str) {
         //s를 :기준으로 나눠서 갖고있자
@@ -11,8 +11,10 @@
         String minute = s.substring(2, 4);
         String second = s.substring(4, s.length()-2);
         if(str.contains("PM")) {
-            int hh = Integer.parseInt(hour)+12;
-            hour = String.valueOf(hh);
+           if(!hour.equals("12")) {
+                int hh = Integer.parseInt(hour)+12;
+                hour = String.valueOf(hh);
+            }
         }
       if(str.contains("AM") && hour.equals("12")) {
             hour = "00";
