@@ -1,5 +1,7 @@
 
 - [문제] (https://www.hackerrank.com/challenges/mini-max-sum/problem?h_r=next-challenge&h_v=zen)
+  - Hints: Beware of integer overflow! Use 64-bit Integer.
+
 
 - 결론: 다시 풀기 
   - ㅋㅋㅋ 아예 감도 안잡혀서 조금 생각하다가 바로 discussion으로 넘어감 ㅠㅋ 
