@@ -1,6 +1,6 @@
 - [문제](https://www.hackerrank.com/challenges/birthday-cake-candles/problem?h_r=next-challenge&h_v=zen)
 
-- 결과
+- 결과 -> 10점 받음 ㅋㅋㅋㅋ이게 좀 쉽기도 한데...그래도 좋당 
 ```sh
     // Complete the birthdayCakeCandles function below.
     //ar에서 가장 큰 숫자의 개수 구하기
