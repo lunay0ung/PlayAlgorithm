@@ -36,9 +36,6 @@ If the value of grade is less than 38, no rounding occurs as the result will sti
         for(int i=0; i<grades.size();i++) {
 
             if(grades.get(i) >= 38) {
-                //grade보다 큰 5의 배수에서 - grade < 3
-                //5에서 숫자의 일의 자리를 밴 값이 3보다 작으면 해당 숫자를 5의 배수로 만들면 된다 -> 10으로 나눈 나머지를 구하면 된다
-
                 //grade보다 큰 5의 배수 ->
                 int a = (5*(grades.get(i)/5))+5;
                 if((a - grades.get(i)) < 3) {
